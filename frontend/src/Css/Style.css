@@ -1,0 +1,25 @@
+.botao{
+    border: none;
+    font-style: none;
+    margin: 10px;
+    background: none;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.btn-primary{
+    --bs-btn-bg: 0 !important;
+    --bs-btn-hover-bg: rgba(118, 118, 118, 0.333) !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 2px solid black !important;
+    transition: 1.8ms;
+    border-radius: 0px !important;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 10px;
+}
