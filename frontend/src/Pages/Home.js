@@ -19,7 +19,7 @@ const Home = () => {
                 <Card.Text>
                   Descrição breve do produto que explica seus principais benefícios e características.
                 </Card.Text>
-                <Button variant="primary" color="black">Comprar</Button>
+                <Button variant="primary">Comprar</Button>
               </Card.Body>
             </Col>
           </Row>
