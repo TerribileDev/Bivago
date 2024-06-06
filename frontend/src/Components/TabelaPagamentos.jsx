@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "../Css/Tabelas.css"
 
-const TabelaCadastro = () => {
+const TabelaPagamentos = () => {
   const [cadastros, setCadastros] = useState([]);
 
   useEffect(() => {
@@ -72,4 +73,4 @@ const TabelaCadastro = () => {
   );
 };
 
-export default TabelaCadastro;
+export default TabelaPagamentos;
